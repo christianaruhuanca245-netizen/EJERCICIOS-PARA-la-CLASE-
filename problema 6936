@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int N, M, A;
+    if (cin >> N >> M >> A) {
+        // Si los tres números son idénticos
+        if (N == M && M == A) {
+            cout << "ELLA TE AMA\n";
+        } 
+        // Si hay alguna diferencia entre ellos
+        else {
+            cout << "ELLA NO TE AMA\n";
+        }
+    }
+
+    return 0;
+}
